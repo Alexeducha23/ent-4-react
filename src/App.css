@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn{
+  display: grid;
+  justify-content: end;
+  margin: 20px;
+}
+.new_btn{
+  background-color: #555A88;
+  color:rgb(255, 255, 255);
+  font-size:small;
+  font-family: Helvetica, sans-serif;
+  width: 175px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+}
+.card_users{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: inset;
+}

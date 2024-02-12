@@ -1,0 +1,47 @@
+article{
+    display: flex;
+    flex-direction: row;
+    width: 400px ;
+}
+.user_card{
+    width: 381px;
+    height: 274px;
+    border: 1px solid #000;
+    margin: 10px;
+    font-family: Helvetica, sans-serif;
+}
+.Users{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.user_name{
+    position: relative;
+    left: 10px;
+    font-family: Helvetica, sans-serif ;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+}
+li{
+    padding: 5px;
+}
+.info{
+   padding: 4px; 
+   color: #00000044;
+}
+.icon_edit, .icon_trash {
+    position: relative;
+    left: 265px;
+    padding: 10px;
+    margin: 5px;
+    font-size: larger;
+    border-radius: 2px;
+}
+
+.icon_trash{
+    background-color: #d41f1fdc;
+    color: white;
+}
